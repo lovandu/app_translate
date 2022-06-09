@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".fragment.GameFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:layout_marginTop="-30dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_conner_10"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="40dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="40dp"
+            android:text="Question content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_conner_30"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="Question 1"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 1"
+        android:background="@drawable/bg_ans_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/tvAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 1"
+        android:background="@drawable/bg_ans_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 1"
+        android:background="@drawable/bg_ans_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tvAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 1"
+        android:background="@drawable/bg_ans_conner_30"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+</LinearLayout>
